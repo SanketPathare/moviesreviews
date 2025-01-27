@@ -9,7 +9,7 @@ export default function NavbarItem({ title, param }) {
       <Link
         className={`hover:text-sky-600 font-semibold ${
           genre === param
-            ? 'underline underline-offset-8 decoration-4 decoration-sky-500 rounded-lg'
+            ? 'underline underline-offset-8 decoration-2 decoration-sky-500 rounded-lg'
             : ''
         }`}
         href={`/top/${param}`}
