@@ -1,4 +1,4 @@
-import AddToFav from "@/components/AddToFav";
+// import AddToFav from "@/components/AddToFav";
 import Link from "next/link";
 
 export default async function MoviePage({ params }) {
@@ -46,14 +46,14 @@ export default async function MoviePage({ params }) {
             <span className="font-semibold mr-1">Rating:</span>
             {movie.vote_count}
           </p>
-          <AddToFav
+          {/* <AddToFav
             movieId={movieId}
             title={movie.title || movie.name}
             image={movie.backdrop_path || movie.poster_path}
             overview={movie.overview}
             releaseDate={movie.release_date || movie.first_air_date}
             voteCount={movie.vote_count}
-          />
+          /> */}
         </div>
       </div>
     </div>
