@@ -5,7 +5,7 @@ export default async function Home({ params }) {
   const res = await fetch(
     `https://api.themoviedb.org/3${
       genre === 'rated' ? `/movie/top_rated` : `/trending/all/week`
-    }?api_key=${API_KEY}&language=en-US&page=1`
+    }?api_key=${API_KEY}&language=en-IN&page=1`
   );
   const data = await res.json();
   if (!res.ok) {
