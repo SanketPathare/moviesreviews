@@ -16,7 +16,7 @@ export default async function MoviePage({ params }) {
         </h1>
         {/* return home */}
         <p>
-          <Link href='/' className='hover:text-amber-600'>
+          <Link href='/' className='hover:text-sky-600'>
             Go Home
           </Link>
         </p>
